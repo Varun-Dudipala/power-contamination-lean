@@ -48,7 +48,7 @@ lake build PowerContamination
 lake env lean check/Axioms.lean
 ```
 
-The second command prints the axioms behind each theorem. The expected output is
+The last command prints the axioms behind each theorem. The expected output is
 `[propext, Classical.choice, Quot.sound]` three times and no errors. It also re-states both
 conjectures directly against the definitions and checks the small values
 `alpha 2 3 = 10`, `alpha 2 5 = 48`, `alpha 2 7 = 176`, `alpha 3 3 = 2`, `alpha 5 5 = 6`,
